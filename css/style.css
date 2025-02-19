@@ -1,0 +1,829 @@
+/*body begins*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+/*header begins*/
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    float: left;
+    position: fixed;
+    z-index: 1000;
+}
+.nav{
+    width: 85%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.logo{
+    width: 8%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    
+}
+.logo a img{
+    width: 100%;
+    height: 60px;
+
+}
+.navbar{
+    width: 70%;
+    height: 60px;
+    float: right;
+    background-color: none;
+}
+
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline;
+    background-color: none;
+    padding: 7px 23px;
+    line-height: 1.7em;
+    
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;   
+}
+
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: yellowgreen;   
+}
+/*
+header section ends
+================================
+hero section begins
+*/
+.hero{
+width: 100%;
+height: 450px;
+float: left;
+background-color: brown;
+background-image: url(../image/tech5.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.hero1{
+    width: 100%;
+    height: 250px;
+    float: left;
+    background-color: brown;
+    background-image: url(../image/tech5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.my_hero{
+    width: 30%;
+    height: 250px;
+    float: left;
+    background-color: green;
+    margin-left: 100px;
+    margin-top: 200px;
+    border-top-right-radius: 50px;
+    opacity: 0.8;
+}
+.my_hero1{
+    width: 30%;
+    height: 100px;
+    float: left;
+    background-color: green;
+    margin-left: 450px;
+    margin-top: 100px;
+    opacity: 0.7;
+    text-align: center;
+}
+.my_hero1 h1{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.my_hero1 ul{
+    list-style: none;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+}
+.my_hero1 ul li{
+    display: inline;
+    padding-left: 0;
+    color: white;
+}
+.my_hero1 ul li a{
+    color: white;
+}
+.my_hero h1,
+.my_hero p{
+    padding:0 20px;
+    color: white;
+}
+.my_hero a{
+    margin-left: 20px;
+    background-color: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    
+}
+.my_hero a:hover{
+    margin-left: 20px;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: green;
+    border: 1px solid white;
+    
+}
+.my_hero p{
+    margin-bottom: 50px;
+}
+/*
+hero ends
+==================================
+main begins
+*/
+.main{
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+/*
+main ends
+======================
+section overview begins
+*/
+#overview{
+    width: 100%;
+    height: 420px;
+    float: left;
+    background-color: none;
+}
+.overview{
+    width: 85%;
+    height: 400px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.overview span{
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+    color: green;
+    font-weight: bolder;
+}
+.my_over{
+width: 47%;
+height: 320px;
+float: left;
+background-color: none;
+}
+
+.josh{
+    float: right;
+}
+.my_over ul{
+    list-style: circle;
+    padding-left: 20px;
+}
+.my_over ul li{
+    padding: 5px 0;
+}
+.my_over a{
+    border: 1px solid green;
+    color: green;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+
+}
+
+.my_over a:hover{
+    border: 1px solid green;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: green;
+    
+
+}
+.shift{
+    margin-bottom: 50px;
+}
+/*
+overview ends
+==================
+product begins
+*/
+.product{
+    width: 100%;
+    height: 520px;
+    float: left;
+    background-color: whitesmoke;   
+}
+.products{
+ 
+    width: 85%;
+    height: 500px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;   
+}
+.products span{
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+    color: green;
+    font-weight: bolder;   
+}
+.productss{
+width: 47%;
+height: 420px;
+float: left;
+background-color: white;
+border-radius: 7px;
+box-shadow: 0 4px 4px 2px gainsboro;
+}
+.productss img{
+    width: 100%;
+    height: 280px;
+}
+.productss h4{
+    margin-top: 0;
+    padding: 0 20px;
+    color: green;
+    margin-bottom: 10px;
+}
+.productss p{
+    margin-top: 0;
+    padding: 0 20px;
+}
+
+.cat{
+    float: right;
+    
+}
+
+
+.productss a{
+    
+    border: 1px solid green;
+    color: white;
+    text-decoration: none;
+    padding: 7px 25px;
+    border-radius: 25px;
+    margin-left: 20px;
+    background-color: green;
+}
+/*
+products section ends
+===================================
+section services begins
+*/
+#services{
+    width: 100%;
+    height: 520px;
+    float: left;
+    background-color: white;
+
+}
+.services{
+    width: 85%;
+    height: 500px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.services span{
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bolder;
+    color: green;
+}
+.my_services{
+    width: 23%;
+    height: 420px;
+    float: left;
+    background-color: whitesmoke;
+    margin-left: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 2px gainsboro;
+}
+.myserve{
+    margin-left: 0!important;
+}
+.my_services img{
+    width: 16%;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.my_services h4{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0 20px;
+    
+}
+.my_services h4 a{
+    text-decoration: none;
+    color: green;
+}
+.my_services p{
+    padding: 0 20px;
+}
+/*
+services ends
+=============================
+portfolio begins
+*/
+#portfolio{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: whitesmoke;
+}
+.portfolio{
+    width: 85%;
+    height: 400px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.portfolio span{
+ width: 100%;
+ height: auto;
+ float: left;
+ font-size: 25px;
+ text-align: center;
+ padding: 20px 0;
+ font-weight: bolder;
+ color: green;   
+}
+.my_port{
+    width: 31%;
+    height: 300px;
+    float: left;
+    background-color: none;
+    margin-left: 38px;
+    background-image: url(../image/tech2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my_port:hover{
+    width: 31%;
+    height: 300px;
+    float: left;
+    background-color: none;
+    margin-left: 38px;
+    background-image: url(../image/tech2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: expand;
+    animation-duration: 3s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+@keyframes expand {
+    from{background-size: 800px;}
+    to{background-size: 1200px;}
+}
+
+
+.port{
+    margin-left: 0!important;
+}
+.info{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: green;
+    margin-top: 220px;
+    opacity: 0.9;
+    display: none;
+
+}
+
+
+.info p{
+    width: 60%;
+    float: left;
+    margin-top: 30px;
+    padding-left: 20px;
+    color: white;
+    
+}
+.info a{
+    padding: 3px 25px;
+    background-color: white;
+    color: green;
+    line-height: 5em;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+.my_port:hover .info{
+    display: block;
+    cursor: alias;
+}
+/*
+portfolio ends
+=======================
+Blog begins
+*/
+#blog{
+    width: 100%;
+    height: 520px;
+    float: left;
+    background-color: none;
+}
+.blog{
+    width: 85%;
+    height: 520px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.blog span{
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    color: green;
+    padding: 20px 0;
+}
+.my_blog{
+    width: 31%;
+    height: 400px;
+    float: left;
+    background-color: white;
+    margin-left: 39px;
+    text-align: center;
+    box-shadow: 0 4px 4px 3px gainsboro;
+    border-radius: 30px;
+}
+.bloger{
+    margin-left: 0!important;
+}
+.my_blog img{
+    width: 15%;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.my_blog h4{
+    color: green;
+}
+.my_blog h4 a{
+    text-decoration: none;
+    color: inherit;
+}
+.my_blog p{
+    padding: 0 20px;
+}
+.change{
+    color: green;
+}
+/*
+blog ends
+=============================================
+testimonial begins
+*/
+#testimonial{
+    width: 100%;
+    height: 440px;
+    float: left;
+    background-color: whitesmoke;
+}
+.testimonial{
+    width: 85%;
+    height: 420px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.testimonial span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    color: green;
+    padding: 20px 0;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.my_test{
+    width: 45%;
+    height: 300px;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 7px;
+}
+.my_test:hover{
+    width: 45%;
+    height: 300px;
+    float: left;
+    background-color: green;
+    padding: 20px;
+    box-shadow: 0 3px 3px 2px gainsboro;
+    border-radius: 7px;
+}
+.testa{
+    float: right!important;
+}
+.testi_im{
+    width: 25%;
+    height: 120px;
+    float: left;
+    background-color:none;
+    background-image: url(../image/tech.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.testi_con{
+    width: 73%;
+    height: 300px;
+    float: right;
+    background-color: none;
+}
+.testi_con h4{
+    color: green;
+}
+.my_test:hover h4,
+.my_test:hover p{
+    color: white;
+}
+/*
+testimonial ends
+====================
+contact begins
+*/
+#contact{
+    width: 100%;
+    height: 620px;
+    float: left;
+    background-color: none;
+}
+.contact{
+    width: 85%;
+    height: 620px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.contact span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    text-shadow: -1px 2px 2px black;
+}
+.map{
+    width: 40%;
+    height: 500px;
+    float: left;
+    background-color: none;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    box-shadow: 0 3px 3px 2px gainsboro;
+}
+.message{
+    width: 57%;
+    height: 500px;
+    float: right;
+    background-color: none;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    box-shadow: 0 3px 3px 2px gainsboro;
+}
+.mapping{
+    width: 91%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.mapping h4,
+.mapping p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.my_map{
+    margin-top: 1px!important;
+}
+.my_space{
+    height: 280px;
+}
+.mapping h4{
+    color: green;
+}
+.my_message{
+    width: 45%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+.my_message input{
+    width: 97%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline-color: green;
+}
+.mo{
+    margin-top: 1px!important;
+}
+.tinubu{
+    width: 93%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    margin-top: 1px;
+    margin-left: 22px;
+}
+.tinubu input{
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline-color: green;
+}
+.sta{
+    height: 200px;
+}
+.tinubu textarea{
+    outline-color: green;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.stat{
+    margin-top: 15px;
+    text-align: center;
+}
+.tinubu button{
+ margin-top: 15px;
+ padding: 10px 25px;
+ border-radius: 25px;
+ border: 1px solid green;
+ background-color: green;
+ color: white;
+}
+.tinubu button:hover{
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+   }
+  /*
+  Contact us ends
+  ===========================
+  footer begins
+  */
+  #footer{
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  .main_footer{
+    width: 100%;
+    height: 250px;
+    float: left;
+    background-color: whitesmoke;
+  }
+  .minor_footer{
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: green;
+  }
+  .footer{
+    width: 85%;
+    height: 250px;
+    float: left;
+    margin-left: 100px;
+    background-color:none;
+  }
+  .my_footer{
+    width: 23%;
+    height: 250px;
+    float: left;
+    background-color: none;
+    margin-left: 29px;
+  }
+  .pop{
+    margin-left: 0!important;
+  }
+  .my_logo{
+    width: 35%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    margin-top: 20px;
+  }
+  .my_logo a img{
+    width: 100%;
+    height: 60px;
+  }
+  .my_footer p{
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  .my_footer h6{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-bottom: 0;
+    color: green;
+  }
+  .my_footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+  }
+  .my_footer ul li{
+    padding: 3px 0;
+  }
+  .my_footer ul li a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .my_footer ul li a:hover{
+    text-decoration:underline;
+    color: green;
+  }
+  .my_footer input{
+    height: 30px;
+    outline-color: green;
+    border: 1px solid white;
+    border-radius: 3px;
+  }
+  .my_footer button{
+    height: 35px;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+  .my_footer button:hover{
+    height: 35px;
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+  }
+  .shaft{
+    margin-left: 100px;
+    color: white;
+  }
