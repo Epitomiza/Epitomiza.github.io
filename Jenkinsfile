@@ -4,25 +4,26 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Build your web application
+                sh 'make'
             }
         }
 
         stage('Test') {
             steps {
-                // Run tests on your application
+                 sh 'make check'
+                junit 'reports/**/*.xml' 
             }
         }
 
         stage('Deploy to Staging') {
             steps {
-                // Deploy to a staging environment
+                sh 'make publish' 
             }
         }
 
         stage('Acceptance Tests') {
             steps {
-                // Run acceptance tests
+                sh 'make publish' 
             }
         }
 
@@ -31,7 +32,7 @@ pipeline {
                 expression { currentBuild.resultIsBetterOrEqualTo('SUCCESS') }
             }
             steps {
-                // Deploy to production if all tests pass
+                sh 'make publish' 
             }
         }
     }
