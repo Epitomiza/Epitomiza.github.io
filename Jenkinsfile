@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'hello'
+                sh 'make publish'
             }
         }
     }
